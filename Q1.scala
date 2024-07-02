@@ -4,7 +4,7 @@ def reverseString(str : String) : String = {
 }
 
 @main def main1() : Unit = {
-    println("Enter a string to reverse: ");
+    print("Enter a string to reverse: ");
     val str = scala.io.StdIn.readLine();
     println("Reversed string: " + reverseString(str));
 }
